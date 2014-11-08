@@ -1,0 +1,15 @@
+[submodule "ext/ThinGL.git"]
+	path = ext/ThinGL.git
+	url = git://github.com/ykst/ThinGL.git
+[submodule "ext/SimpleWebsocketServer.git/ext/CocoaHTTPServer.git"]
+	path = ext/SimpleWebsocketServer.git/ext/CocoaHTTPServer.git
+	url = git://github.com/ykst/CocoaHTTPServer.git
+[submodule "ext/MobileAL.git"]
+	path = ext/MobileAL.git
+	url = git://github.com/ykst/MobileAL.git
+[submodule "ext/MobileCV.git"]
+	path = ext/MobileCV.git
+	url = git://github.com/ykst/MobileCV.git
+[submodule "ext/MTPipeline.git"]
+	path = ext/MTPipeline.git
+	url = git://github.com/ykst/libmtpipe.git

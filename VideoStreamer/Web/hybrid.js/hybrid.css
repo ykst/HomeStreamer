@@ -1,0 +1,26 @@
+* {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+img {
+    -webkit-touch-callout: none;
+}
+
+::selection { background: transparent; color: inherit; }
+
+.hide {
+    display: none;
+    visibility: hidden;
+}
+
+.unused {
+    opacity: 0.2;
+    cursor: default;
+}
+
+.unavailable {
+    opacity: 0.0;
+    display: none;
+}

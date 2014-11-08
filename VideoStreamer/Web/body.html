@@ -1,0 +1,136 @@
+<div id="container">
+    <canvas id="screen" class="full centered" width="320" height="240"/>
+</div>
+<div id="toolbar_bottom" class="view enable"> 
+    <div id="sound_control" class="sound_control">
+        <div id="volume_button" class="button">
+            <img id="volume_img" src="volume_mute.png" width="36" height="36"/> 
+        </div>
+        <div class="volume_control">
+            <div class="volume_control_slider_parts">
+                <div class="volume_control_slider_box">
+                    <div class="volume_control_slider"> 
+                        <div class="volume_control_slider_front"> 
+                            <div class="volume_control_slider_back"></div>
+                        </div>
+                    </div>
+                    <div class="volume_control_slider_knob"> </div>
+                </div>
+            </div>
+            <div class="volume_display_touch_area"> </div>
+            <div class="volume_control_slider_touch_area"> </div>
+        </div>
+    </div> 
+    <div id="roi_button" class="button">
+        <img src="view.png" width="32" height="32"/> 
+    </div>
+    <div id="setting_button" class="button">
+        <img src="settings.png" width="32" height="32"/> 
+    </div>
+    <div id="screen_change_button" class="button">
+        <img id="fullscreen_button_img" src="full-screen-exit.png" width="32" height="32"/> 
+    </div>
+</div>
+
+<div id="armyknife" class="view enable"> 
+    <div id="armyknife_container">
+        <div id="light_button" class="button hide">
+            <img id="light_button_img" src="light_off.png" width="32" height="32"/> 
+        </div>
+        <div id="focus_button" class="button locked"> <img id="focus_button_img" src="focus.png" width="32" height="32"/> </div>
+        <div id="still_camera_button" class="button locked"> <img src="camera.png" width="32" height="32"/> </div>
+        <div id="armyknife_opener" class="button"> <img id="armyknife_opener_img" src="armyknife_open.png" width="32" height="32"/> </div>
+    </div>
+</div>
+
+<div id="roi_view_container" class="view hide">
+    <div id="roi_view_controlls">
+        <div id="zoom_in" class="button"> <img src="zoom-in.png" width="32" height="32"/> </div>
+        <div id="zoom_out" class="button"> <img src="zoom-out.png" width="32" height="32"/> </div>
+        <div id="rotate_device" class="button"> <img src="rotate_device.png" width="32" height="32"/> </div>
+        <div id="rotate_rev" class="button"> <img src="rotate_rev.png" width="32" height="32"/> </div>
+        <div id="rotate" class="button"> <img src="rotate.png" width="32" height="32"/> </div>
+    </div>
+    <canvas id="roi_view" width="320" height="240" > 
+        <div id="focus" class="button"> <img src="focus.png" width="32" height="32"/> </div>
+    </canvas>
+</div>
+
+<div id="setting_dialog_container" >
+    <div id="setting_dialog" class="view dialog hide">
+        <div id="image_qualty" class="setting_row">
+            <div>
+                <span>$_$LOCALIZED_IMAGE_QUALITY$_$</span>
+            </div>
+            <div id="quality_low_button" class="button"> <img src="grid_low.png" width="32" height="32"/> </div>
+            <div id="quality_middle_button" class="button"> <img src="grid_middle.png" width="32" height="32"/> </div>
+            <div id="quality_high_button" class="button"> <img src="grid_high.png" width="32" height="32"/> </div>
+        </div>
+
+        <div id="sound_buffering" class="setting_row">
+            <div>
+                <span>$_$LOCALIZED_BUFFERING$_$</span>
+            </div>
+            <div id="buffering_small_button" class="button"> <img src="dot_small.png" width="32" height="32" /> </div>
+            <div id="buffering_middle_button" class="button"> <img src="dot_middle.png" width="32" height="32"> </div>
+            <div id="buffering_big_button" class="button"> <img src="dot_big.png" width="32" height="32"> </div>
+        </div>
+
+        <div id="contrast" class="setting_row">
+            <div>
+                <span>$_$LOCALIZED_CONTRAST_ADJUSTMENT$_$</span>
+            </div>
+            <div id="contrast_adjustment_off_button" class="button"> </div>
+            <div id="contrast_adjustment_on_button" class="button"> 
+                <img src="brightness.png" width="32" height="32">
+            </div>
+        </div>
+        <div id="info_button" class="humble_button"> 
+            <img class="centered" src="info.png" width="32" height="32">
+        </div>
+    </div>
+</div>
+
+<div id="info_dialog_container">
+    <div id="info_dialog" class="view dialog">
+        <a href="$_$APPSTORE_URL$_$" target="_blank">$_$LOCALIZED_APP_NAME$_$ v$_$APP_VERSION$_$</a>
+        <br>
+        <span id="copyright">$_$LOCALIZED_COPYING$_$</span>
+        <br>
+        <div>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="$_$SHARE_TWITTER_URL$_$" data-text="$_$SHARE_TWITTER_COMMENT$_$">Tweet</a>
+        </div>
+        <div>
+            <div class="fb-like" data-href="$_$SHARE_FACEBOOK_URL$_$" data-width="265" data-layout="standard" data-action="recommend" data-show-faces="false" data-share="true"></div>
+        </div>
+
+    </div>
+</div>
+
+<div id="growl_container">
+    <div id="growl" class="view hide">
+        <span id="growl_text"></span>
+    </div>
+</div>
+
+<div id="guard" class="view enable"> 
+    <div id="indicator" class="spinner centered"> </div>
+    <div id="password_view_container" class="centered">
+        <div id="password_view" class="view hide">
+            <div id="password_unlock_button" class="button"> 
+                <img src="password.png" width="32" height="32">
+            </div>
+            <input class="password_input hint" type="text" value="<enter password>" size="18" />
+        </div>
+    </div>
+</div>
+
+<div id="lefttop_space" class="view enable">
+    <div id="buffering_indicator" class="view hide">
+        <div class="buffering_indicator_column buffering_indicator_column1"></div>
+        <div class="buffering_indicator_column buffering_indicator_column2"></div>
+        <div class="buffering_indicator_column buffering_indicator_column3"></div>
+        <div class="buffering_indicator_column buffering_indicator_column4"></div>
+        <div class="buffering_indicator_column buffering_indicator_column5"></div>
+    </div>
+</div>

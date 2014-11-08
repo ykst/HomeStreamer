@@ -1,0 +1,12 @@
+{
+    "curly": true,
+    "browser": true,
+    "undef": "strict",
+    "forin": true,
+    "unused": true,
+    "freeze": true,
+    "immed": true,
+    "nonew": true,
+    "latedef": true,
+    "noempty": true
+}

@@ -1,0 +1,84 @@
+/* 
+  Localizable.strings
+  VideoStreamer
+
+  Created by Yukishita Yohsuke on 2014/03/28.
+  Copyright (c) 2014年 monadworks. All rights reserved.
+*/
+
+// Web
+"Home Streamer" = "Home Streamer";
+"Buffer Size" = "音声バッファ";
+"Contrast Adjustment" = "暗視モード";
+"Image Quality" = "画像解像度";
+"TWITTER_COMMENT" = "Home Streamer - Webブラウザで手軽に映像／音声のリアルタイムストリーミング";
+"COPYING" = "Copyright © 2014 monadworks All Rights Reserved.";
+
+"DESC_FOCUS_LOCKED" = "固定フォーカス";
+"DESC_FOCUS_AUTO" = "オートフォーカス";
+
+// UI: COMMON
+"Yes" = "はい";
+"No" = "いいえ";
+"Cancel" = "キャンセル";
+"OK" = "OK";
+"Confirm" = "確認";
+"Not Supported" = "サポートされていません";
+"Not Found" = "デバイスが見つかりません";
+"Dismiss" = "閉じる";
+// UI: MAIN
+"Network Error" = "ネットワークエラー";
+"Network Connection" = "ネットワーク接続";
+"NETWORK_CONNECTION_ALERT" = "ストリーミングを行うにはWi-Fiに接続する必要があります";
+
+"REVIEW_BEGGING_TITLE" = "Home Streamerを使って頂きありがとうございます！";
+"REVIEW_BEGGING_CONTENT" = "今後の品質向上のために、評価／レビューにご協力をお願いします。\n\n(この画面はバージョン毎に一度だけ表示されます)";
+"Review" = "評価する";
+"Later" = "後で";
+
+"SERVER_START_FAILED_TITLE" = "サーバーエラー";
+"SERVER_START_FAILED_CONTENT" = "HTTPサーバーを立ち上げる事が出来ませんでした。\n端末を再起動してください。";
+
+"URL_CHANGE_TITLE" = "URLが変更されました";
+
+// UI: SETTING
+"NETWORK" = "ネットワーク";
+"STREAMING" = "ストリーミング";
+"INITIALIZE" = "初期化";
+
+"Browser Password" = "接続パスワード";
+"URL Type" = "URL形式";
+"Video Quality" = "配信画質";
+"Framerate Limit" = "最大FPS";
+"Enable Audio" = "音声を配信";
+"Reset to Default" = "設定を初期化する";
+
+"Reset" = "リセット";
+"RESET_SETTING_CONFIRM" = "全設定を初期化していいですか？";
+
+"Microphone Access" = "マイク設定";
+"AUDIO_PERMISSION_ALERT" = "音声配信を使用する場合は、プライバシー設定からマイクへのアクセスを許可してください";
+
+"Get Internet URL" = "外部URL";
+"UPNP_NOT_AVAILABLE" = "UPnPが有効化されているルーターが見つかりません。手動でネットワークを設定してください。";
+
+"UPnP Error" = "UPnPエラー";
+"Could not Configure" = "URLを取得出来ません";
+"UPNP_FAILED_CONFIGURE" = "UPnPで外部URLを設定出来ませんでした。手動でネットワークを設定してください。";
+
+"Send URL" = "アドレスを送信";
+"Internet URL" = "インターネット公開用URL";
+
+"Refresh" = "再取得";
+
+"Setting Change" = "設定変更";
+"HIGHSPEED_MODE_NOTICE" =  "30fps以上の設定では、前面カメラが無効になり、最大画像解像度が1920x1080から1280x720に制限されます。";
+
+"Never show this again" = "もう表示しない";
+"Never show again" = "もう表示しない";
+// SUPPORT
+"Help" = "ヘルプ";
+"MOBILE_STORE_URL" = "https://itunes.apple.com/jp/app/home-streamer/id862915269?mt=8";
+"SHARE_URL" = "https://itunes.apple.com/jp/app/home-streamer/id862915269";
+"SUPPORT_URL" = "http://www.monadworks.com/products/home-streamer/support/ja";
+"SUPPORT_URL_LOCAL" = "http://192.168.1.23/products/home-streamer/support/ja";

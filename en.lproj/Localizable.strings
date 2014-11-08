@@ -1,0 +1,79 @@
+/* 
+  Localizable.strings
+  VideoStreamer
+
+  Created by Yukishita Yohsuke on 2014/03/28.
+  Copyright (c) 2014年 monadworks. All rights reserved.
+*/
+
+// Web
+"Home Streamer" = "Home Streamer";
+"Buffer Size" = "Sound Buffer";
+"Contrast Adjustment" = "Night Vision";
+"Image Quality" = "Video Resolution";
+"TWITTER_COMMENT" = "Home Streamer - Browse your iDevice's camera/microphone over Wi-Fi";
+"COPYING" = "Copyright © 2014 monadworks All Rights Reserved.";
+
+"DESC_FOCUS_LOCKED" = "Focus is locked";
+"DESC_FOCUS_AUTO" = "Autofocus is enabled";
+// UI: COMMON
+"Yes" = "Yes";
+"No" = "No";
+"Cancel" = "Cancel";
+"OK" = "OK";
+"Confirm" = "Confirm";
+"Not Supported" = "Not Supported";
+"Not Found" = "Not Found";
+"Dismiss" = "Dismiss";
+
+// UI: MAIN
+"Network Connection" = "Network Connection";
+"NETWORK_CONNECTION_ALERT" = "Join Wi-Fi network to start streaming";
+
+"REVIEW_BEGGING_TITLE" = "Thank you for using Home Streamer";
+"REVIEW_BEGGING_CONTENT" = "If you like it, please consider rating or reviewing this app. We will be very much encouraged!\n\n(This dialog will never show again for this version)";
+"Review" = "Rate";
+"Later" = "Later";
+
+"SERVER_START_FAILED_TITLE" = "Server Error";
+"SERVER_START_FAILED_CONTENT" = "Failed to start HTTP server.\nPlease reboot the device.";
+
+"URL_CHANGE_TITLE" = "URL has been changed";
+
+// UI: SETTING
+"NETWORK" = "NETWORK";
+"STREAMING" = "STREAMING";
+"INITIALIZE" = "RESET";
+
+"Browser Password" = "Browser Password";
+"URL Type" = "URL Type";
+"Video Quality" = "Image Quality";
+"Framerate Limit" = "Max Framerate";
+"Enable Audio" = "Enable Audio";
+
+"RESET_SETTING_CONFIRM" = "Do you really want to reset all settings?";
+
+"Get Internet URL" = "Internet URL";
+
+"Microphone Access" = "Microphone Access";
+"AUDIO_PERMISSION_ALERT" = "Enable the microphone access when you want to stream audio, from privacy settings.";
+
+"UPnP Error" = "UPnP Error";
+
+"UPNP_NOT_AVAILABLE" = "Could not find  router enables UPnP. Please configure the network manually.";
+
+"Could not Configure" = "Failed to Get URL";
+"UPNP_FAILED_CONFIGURE" = "Could not get external URL from UPnP device. Please configure the network manually.";
+
+"Setting Change" = "Settings have changed";
+
+"HIGHSPEED_MODE_NOTICE" = "When running at over 30fps, the front camera is disabled and the maximum image size is changed from 1920x1080 to 1280x720.";
+
+"Never show this again" = "Never show again";
+"Never show again" = "Never show again";
+
+// SUPPORT
+"MOBILE_STORE_URL" = "https://itunes.apple.com/app/home-streamer/id862915269?mt=8";
+"SHARE_URL" = "https://itunes.apple.com/app/home-streamer/id862915269";
+"SUPPORT_URL" = "http://www.monadworks.com/products/home-streamer/support";
+"SUPPORT_URL_LOCAL" = "http://192.168.1.23/products/home-streamer/support";

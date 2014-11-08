@@ -1,0 +1,83 @@
+PODS:
+  - BlocksKit (2.2.2):
+    - BlocksKit/All
+  - BlocksKit/All (2.2.2):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.2)
+  - BlocksKit/DynamicDelegate (2.2.2)
+  - BlocksKit/MessageUI (2.2.2):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.2):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CocoaAsyncSocket (7.3.5)
+  - CocoaHTTPServer (2.3.1):
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+  - CocoaLumberjack (2.0.0-beta4):
+    - CocoaLumberjack/Default
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/Core (2.0.0-beta4)
+  - CocoaLumberjack/Default (2.0.0-beta4):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.0-beta4):
+    - CocoaLumberjack/Default
+  - MDWUtils (0.1.0)
+  - MiniUPnPc-iOS (0.0.0)
+  - MobileAL (0.1.0)
+  - MobileCV/Core (0.1.0)
+  - MTPipeline (0.2.0)
+  - Reachability (3.1.1)
+  - SimpleWebsocketServer (0.0.0)
+  - ThinGL (0.2.0)
+
+DEPENDENCIES:
+  - BlocksKit (= 2.2.2)
+  - CocoaHTTPServer (from `ext/SimpleWebsocketServer.git/ext/CocoaHTTPServer.git`)
+  - MDWUtils (from `ext/MDWUtils.git`)
+  - MiniUPnPc-iOS (from `ext/MiniUPnPc-iOS.git`)
+  - MobileAL (from `ext/MobileAL.git`)
+  - MobileCV/Core (from `ext/MobileCV.git`)
+  - MTPipeline (from `ext/MTPipeline.git`)
+  - Reachability (= 3.1.1)
+  - SimpleWebsocketServer (from `ext/SimpleWebsocketServer.git`)
+  - ThinGL (from `ext/ThinGL.git`)
+
+EXTERNAL SOURCES:
+  CocoaHTTPServer:
+    :path: ext/SimpleWebsocketServer.git/ext/CocoaHTTPServer.git
+  MDWUtils:
+    :path: ext/MDWUtils.git
+  MiniUPnPc-iOS:
+    :path: ext/MiniUPnPc-iOS.git
+  MobileAL:
+    :path: ext/MobileAL.git
+  MobileCV:
+    :path: ext/MobileCV.git
+  MTPipeline:
+    :path: ext/MTPipeline.git
+    :submodules: true
+  SimpleWebsocketServer:
+    :path: ext/SimpleWebsocketServer.git
+  ThinGL:
+    :path: ext/ThinGL.git
+
+SPEC CHECKSUMS:
+  BlocksKit: 49fda17cbd628f3d6683f62de57edeaa315b386c
+  CocoaAsyncSocket: 45bdbbc1c0a5ed0640ff4c42af325ba43a2f099a
+  CocoaHTTPServer: 205ea55ef14642da2fad0ced6d504c8be32686f7
+  CocoaLumberjack: 24153b24b17d853d7182b22b128971fb98e8cb18
+  MDWUtils: 2ef7ae14e671834a7f24d3b326df85b439d0db7b
+  MiniUPnPc-iOS: 40f8e1cbb9708a2283cee38441155edcd612328c
+  MobileAL: 81ef0b460aeadbb98c4824316c7e9a615f018767
+  MobileCV: 19422ff04baef7f3d20b88290e21aaa7d3208a68
+  MTPipeline: cf0ffc8f19b89c84e18060ad994a5543f3fc2fb5
+  Reachability: 8e9635e3cb4f98e7f825e51147f677ecc694d0e7
+  SimpleWebsocketServer: e4505dcb09d34411960bc6b7182364c26ec5692d
+  ThinGL: b53056f685f3016f819346861a085e8bc544ad96
+
+COCOAPODS: 0.33.1
